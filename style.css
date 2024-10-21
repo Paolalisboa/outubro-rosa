@@ -9,11 +9,12 @@
 }
 
 header {
-  height: 15vh;
+  height: 20vh;
   background-color: #FF69B4;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  font-size: 60px;
 }
 @media (max-width: 700px) {
   header header {
@@ -21,9 +22,11 @@ header {
     height: 30vh;
   }
 }
+header main {
+  font-size: 200px;
+}
 
 .Boxlogo {
-  border: solid 2px red;
   width: 25vw;
   display: flex;
   align-items: center;
@@ -49,7 +52,7 @@ header {
 }
 .Boxlogo h1 {
   color: white;
-  font-size: 1.7vw;
+  font-size: 3.5vw;
 }
 @media (max-width: 1000px) {
   .Boxlogo h1 {
@@ -58,14 +61,14 @@ header {
 }
 
 nav {
-  border: solid 2PX yellow;
   width: 40VW;
+  align-items: center;
 }
 nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 @media (max-width: 1000px) {
   nav ul {
@@ -77,7 +80,6 @@ nav ul a {
 }
 
 .sessaoSobre {
-  border: solid 2px;
   height: 60vh;
   background-color: #FFD9EC;
   display: flex;
@@ -91,14 +93,13 @@ nav ul a {
   }
 }
 .sessaoSobre p {
-  border: solid 2px red;
   width: 30vw;
   font-size: 1.5vw;
 }
 @media (max-width: 800px) {
   .sessaoSobre p {
     font-size: 2vw;
-    width: vw;
+    width: 30vw;
   }
 }
 .sessaoSobre img {
@@ -118,4 +119,67 @@ nav ul a {
   .sessaoSobre img {
     width: 46vw;
   }
+}
+
+.sessaoconscientizacao {
+  height: 60vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 600px) {
+  .sessaoconscientizacao {
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
+}
+.sessaoconscientizacao p {
+  width: 30vw;
+  font-size: 1vw;
+  color: #E4EEF1;
+  align-items: center;
+}
+
+.sessaoorientacao {
+  height: 60vh;
+  background-color: #FFD9EC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 600px) {
+  .sessaoorientacao {
+    flex-direction: column-reverse;
+    height: 10vh;
+  }
+}
+.sessaoorientacao p {
+  width: 30vw;
+  font-size: 1vw;
+}
+
+.sessaofinal {
+  height: 60vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 400px) {
+  .sessaofinal {
+    flex-direction: column-reverse;
+    height: 70vh;
+  }
+}
+.sessaofinal img {
+  width: 6.5vw;
+  justify-content: flex-start;
+}
+.sessaofinal ul {
+  width: 60vh;
+  font-size: 1vw;
+  color: #E4EEF1;
+  text-align: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

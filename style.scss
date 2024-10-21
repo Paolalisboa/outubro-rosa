@@ -8,14 +8,16 @@
     list-style: none;
     text-decoration: none;
     font-family: "Noto Sans", sans-serif;
+    
 }
 //cAIXA ROSA DE CIMA
 header{
-    height: 15vh;
+    height: 20vh;
     background-color: #FF69B4;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    font-size: 60px;
 
     @media (max-width: 700px){
         header{ 
@@ -23,10 +25,14 @@ header{
             height: 30vh;
         }
     }
+    
+    main{
+        font-size: 200px;
+    }
 }
  
 .Boxlogo{
-    border: solid 2px red;
+    //border: solid 2px red;
     width: 25vw;
     display: flex;
     align-items: center;
@@ -49,7 +55,7 @@ header{
 
     h1{
         color: white;
-        font-size: 1.7vw;
+        font-size: 3.5vw;
 
         @media (max-width: 1000px){
             font-size: 2vw;
@@ -59,13 +65,14 @@ header{
 
 nav{
     
-    border: solid 2PX yellow; 
+   // border: solid 2PX yellow; 
     width: 40VW;
+    align-items: center;
     ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 1.5vw;
+        font-size: 1.0vw;
         @media (max-width: 1000px){
             font-size: 2vw;
         }
@@ -77,7 +84,7 @@ nav{
 //---------------MAIN----------------
 
 .sessaoSobre{
-    border: solid 2px;
+    //border: solid 2px;
     height: 60vh;
     background-color: #FFD9EC;
     display: flex;
@@ -89,13 +96,13 @@ nav{
     }
 
     p{
-        border: solid 2px red;
+        //border: solid 2px red;
         width: 30vw;
         font-size: 1.5vw;
 
         @media(max-width: 800px){
             font-size: 2vw;
-            width: vw;
+            width: 30vw;
         }
     }
     img{
@@ -110,4 +117,75 @@ nav{
             width: 46vw;           
         }
     }
+}
+
+.sessaoconscientizacao{
+    //border: solid 2px;
+    height: 60vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    @media(max-width: 600px) {
+        flex-direction: column-reverse;
+        height: 70vh;
+    }
+
+    p{
+                //border: solid 2px red;
+                width: 30vw;
+                font-size: 1.0vw;
+                color:#E4EEF1; 
+                align-items: center;
+    }
+}
+
+.sessaoorientacao{
+   // border: solid 2px;
+    height: 60vh;
+    background-color: #FFD9EC;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    @media(max-width: 600px) {
+        flex-direction: column-reverse;
+        height: 10vh;
+    }
+
+    p{
+               //border: solid 2px red;
+                width: 30vw;
+                font-size: 1.0vw;
+    }
+}
+.sessaofinal{
+   // border: solid 2px;
+    height: 60vh;
+    background-color:#FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    @media(max-width: 400px) {
+        flex-direction: column-reverse;
+        height: 70vh;
+    }
+    
+        img{
+            width:  6.5vw;
+            justify-content:flex-start;
+        }
+    
+
+    ul{
+                //border: solid 2px red;
+                width: 60vh;
+                font-size: 1.0vw;
+                color: #E4EEF1;
+                text-align: center;
+                align-items: center;
+
+    }
+
 }
