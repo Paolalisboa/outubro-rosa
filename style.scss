@@ -48,14 +48,12 @@ header{
         @media (max-width: 1000px){
             width: 7vw;
         }
-            @media (max-width: 1000px){
-            width: 7vw;
-        }
+        
     }
 
     h1{
         color: white;
-        font-size: 3.5vw;
+        font-size: 1.5vw;
 
         @media (max-width: 1000px){
             font-size: 2vw;
@@ -126,6 +124,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    div{
+        align-items: center;
+        justify-content: space-between;
+    }
     
     @media(max-width: 600px) {
         flex-direction: column-reverse;
@@ -171,21 +174,21 @@ nav{
         flex-direction: column-reverse;
         height: 70vh;
     }
-    
+    div{  
+        justify-content: space-evenly;
         img{
             width:  6.5vw;
             justify-content:flex-start;
         }
-    
+    }
 
     ul{
-                //border: solid 2px red;
+               // border: solid 2px red;
                 width: 60vh;
                 font-size: 1.0vw;
                 color: #E4EEF1;
                 text-align: center;
-                align-items: center;
-
+                justify-content: center;
     }
 
 }
